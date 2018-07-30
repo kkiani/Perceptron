@@ -1,34 +1,34 @@
-NOTE: This is not final docs
+_**NOTE: This is not final docs**_
 
-Simple Perceptron
-Overview
+# Simple Perceptron
+## Overview
 This example of using single neural cell show how an perceptron can learn to calculate logic gate (AND, OR , ...).
 
-How to run?
-1. First you need to install numpy with pip if you did not befor:
-sudo pip install numpy
+## How to run?
+1. First you need to install [numpy](http://www.numpy.org) with pip if you did not befor:
+sudo pip install [numpy](http://www.numpy.org)
 2. Download full source and extract in a folder.
 3. Execute main.py file.
 
-What is Neuron?
+## What is Neuron?
 Human brain build by network of cells called neuron, these cells are bases for learning process, every cell get N inputs and in core of it self then sum all of them by some weights then only one input would be the output of cell.
 
-Mathematics Model
+## Mathematics Model
 
-Perceptron Class 
+## Perceptron Class
 this class only use numpy library for linear algebra calculation and every thing else is implemented.
 
-structure
-	* weight:  
-	* bias:
+### structure
+* 	weight:
+* 	bias:
 
-methods
-	* __init__
-	* train
-	* calculate
-	* stepUnit
+### methods
+* 	\__init__
+*  train
+* 	calculate
+* 	stepUnit
 	
-License
+## License
 The MIT License (MIT)
 
 Copyright (c) 2018  Kiarash Kiani
